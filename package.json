@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "webpack-dev-server --mode development --watch --hot",
-    "start": "webpack --mode production",
+    "start": "node server.js",
     "heroku-prebuild": "npm install --dev"
   },
   "engines": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/rdutta845/OMDB-Search#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
