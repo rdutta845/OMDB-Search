@@ -7,6 +7,9 @@
     "start": "webpack-dev-server --mode development --watch --hot",
     "build": "webpack --mode production"
   },
+  "engines": {
+    "node": "10.11.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rdutta845/OMDB-Search.git"
