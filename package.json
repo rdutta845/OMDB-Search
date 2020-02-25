@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "webpack-dev-server --mode development --watch --hot",
     "start": "webpack --mode production",
-    "heroku-prebuild": "npm install --dev",
+    "heroku-prebuild": "npm install --dev"
   },
   "engines": {
     "node": "10.11.0"
