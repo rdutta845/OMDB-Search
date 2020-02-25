@@ -4,8 +4,8 @@
   "description": "keastone app",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --watch --hot",
-    "build": "webpack --mode production"
+    "start:dev": "webpack-dev-server --mode development --watch --hot",
+    "start": "webpack --mode production"
   },
   "engines": {
     "node": "10.11.0"
