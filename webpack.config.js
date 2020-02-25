@@ -19,7 +19,7 @@ obj.module.rules = [
 ]
 
 obj.output = {
-    path: path.join(__dirname, ',dist'),
+    path: path.join(__dirname, 'dist'),
     filename: 'index.js'
 };
 obj.plugins = [
