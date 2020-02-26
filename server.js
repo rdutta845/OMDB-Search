@@ -3,7 +3,7 @@ var app = express();
 var path = require('path');
 
 app.use(express.static(path.join(__dirname)));
-app.use("/dist/index.js", express.static(__dirname));
+app.use('/', express.static('dist'))
 
 
 // viewed at based directory http://localhost:8080/
