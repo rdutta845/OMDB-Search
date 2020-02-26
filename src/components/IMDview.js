@@ -12,7 +12,7 @@ class IMDview extends Component{
     }
     componentDidMount(){
         const {imdbID} = this.state;
-        const apiUrl = "http://www.omdbapi.com/?i=" +imdbID +"&apikey=1ffd4fd6"
+        const apiUrl = "https://www.omdbapi.com/?i=" +imdbID +"&apikey=1ffd4fd6"
         fetch(apiUrl)
         .then(val => val.json())
         .then(data => {
