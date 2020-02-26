@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "webpack-dev-server --mode development --watch --hot",
     "start": "node server.js",
-    "build":"webpack --mode production"
+    "build": "webpack --mode production"
   },
   "engines": {
     "node": "10.11.0"
@@ -27,8 +27,10 @@
   "homepage": "https://github.com/rdutta845/OMDB-Search#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "history": "^4.10.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

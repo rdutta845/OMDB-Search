@@ -27,5 +27,5 @@ obj.plugins = [
         template: './src/index.html'
     })
 ];
-
+obj.devServer = {historyApiFallback: true}
 module.exports = obj;
