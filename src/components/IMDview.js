@@ -39,7 +39,7 @@ class IMDview extends Component{
         <p>IMD Votes: {imdData.imdbVotes}</p>
         <div>
             <p>Rating</p>
-        {imdData.Ratings.map(val => <p><span>Source: {val.Source}</span> <span>Value: {val.Value}</span></p>)}
+        {imdData.Ratings.map((val, ind) => <p key={ind}><span>Source: {val.Source}</span> <span>Value: {val.Value}</span></p>)}
         </div>
                 </div>}
             </React.Fragment>

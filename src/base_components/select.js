@@ -3,11 +3,11 @@ import React from 'react';
 function Select(props){
     return(
         <div className="select-container">
-            <select defaultValue="">
-                <option value="" disabled></option>
+            <select defaultValue="" onChange={props.setDropdown}>
+                <option value="" disabled>All</option>
                 {props.options && props.options.map((val, id) =>{
                     return(
-                        <option value={val.value} key={id} onChange={() => props.setDropdown(val.value)}>{val.name}</option>
+                        <option value={val.value} key={id}>{val.name}</option>
                     )
                 })}
             </select>
